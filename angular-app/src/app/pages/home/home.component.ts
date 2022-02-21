@@ -8,7 +8,7 @@ import {MyService} from '../../services/my.service';
 })
 export class HomeComponent implements OnInit {
 
-  output = null;
+  output: any;
 
   constructor(private service: MyService) { }
 

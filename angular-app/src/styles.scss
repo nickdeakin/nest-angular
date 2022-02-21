@@ -41,7 +41,7 @@ a {
   .test-app--layout-main {
     @include flex-full;
 
-    :nth-child(2) {
+    > :nth-child(2) {
       @include flex-full;
     }
   }
@@ -58,6 +58,6 @@ a {
 }
 
 .test-app--page {
-  @include flex-full;
+  flex-grow: 1;
   padding: 24px;
 }
