@@ -1,0 +1,9 @@
+{
+  "name": "test-app",
+  "version": "0.0.1",
+  "scripts": {
+    "start:nest-app": "cd nest-api && npm run start",
+    "start:angular-app": "cd angular-app && npm run start"
+  },
+  "private": true
+}

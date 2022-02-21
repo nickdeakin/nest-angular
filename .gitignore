@@ -1,0 +1,6 @@
+.idea/
+angular-app/.angular/
+angular-app/dist/
+angular-app/node_modules/
+nest-api/dist/
+nest-api/node_modules/
